@@ -1,0 +1,190 @@
+/* colors */
+.brand-color {
+  color: var(--brand-color) !important;
+}
+.green-color {
+  color: var(--green-color) !important;
+}
+.red-color {
+  color: var(--red-color) !important;
+}
+.white-color {
+  color: var(--white-color) !important;
+}
+.black-color {
+  color: var(--black-color) !important;
+}
+.light-color {
+  color: var(--light-color) !important;
+}
+.text-color {
+  color: var(--text-color) !important;
+}
+.text-color-2 {
+  color: var(--text-color-2) !important;
+}
+.text-color-muted {
+  color: var(--text-color-muted) !important;
+}
+.text-color-muted-2 {
+  color: var(--text-color-muted-2) !important;
+}
+
+/* background colors */
+.bg-brand {
+  background-color: var(--brand-color) !important;
+}
+.bg-green {
+  background-color: var(--green-color) !important;
+}
+.bg-red {
+  background-color: var(--red-color) !important;
+}
+.bg-black {
+  background-color: var(--black-color) !important;
+}
+.bg-text {
+  background-color: var(--text-color);
+}
+.bg-text-muted {
+  background-color: var(--text-color-muted);
+}
+.bg-light {
+  background-color: var(--light-color) !important;
+}
+
+/* fonts */
+.fs-10 {
+  font-size: 1rem !important;
+}
+.fs-11 {
+  font-size: 1.1rem !important;
+}
+.fs-12 {
+  font-size: 1.2rem !important;
+}
+.fs-14 {
+  font-size: 1.4rem !important;
+}
+.fs-15 {
+  font-size: 1.5rem !important;
+}
+.fs-30 {
+  font-size: 3rem !important;
+}
+
+.fs-35 {
+  font-size: 3.5rem !important;
+}
+
+.fs-40 {
+  font-size: 4rem !important;
+}
+
+.fs-45 {
+  font-size: 4.5rem !important;
+}
+
+.fs-50 {
+  font-size: 5rem !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.fw-semibold {
+  font-weight: 600 !important;
+}
+
+/* Border */
+.border-s-brand-5 {
+  border-left: 0.5rem solid var(--brand-color);
+}
+/* Border Radius */
+.rounded-4 {
+  border-radius: 0.75rem !important;
+}
+.rounded-top-4 {
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
+}
+.rounded-bottom-4 {
+  border-bottom-left-radius: 0.75rem !important;
+  border-bottom-right-radius: 0.75rem !important;
+}
+
+.rounded-5 {
+  border-radius: 1rem !important;
+}
+.rounded-top-5 {
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+}
+.rounded-bottom-5 {
+  border-bottom-left-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
+/* Offer Hightlight */
+.offer-highlight {
+  position: absolute;
+  top: 20px;
+  left: -35px;
+  background: var(--brand-color);
+  color: var(--white);
+  padding: 2px 50px;
+  font-size: 1.4rem;
+  transform: rotate(-45deg);
+}
+
+/* Card Item Count */
+.card-item-count {
+  font-size: 2rem;
+  border-color: var(--brand-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  width: 12rem;
+  color: var(--text-color);
+}
+
+/* Custom Radio Button */
+.radio-btn input[type="radio"] {
+  display: none;
+}
+
+.radio-btn label {
+  position: relative;
+  border: 1px solid var(--stroke-color);
+  width: 50%;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.radio-btn input[type="radio"]:checked + label {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
+
+/* Status */
+.status-completed {
+  color: var(--green-color);
+  background-color: #13bfa626;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}
+
+.status-pending {
+  color: var(--bs-warning);
+  background-color: #ffc10729;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}
+.status-cancelled {
+  color: var(--red-color);
+  background-color: #e8264621;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+}

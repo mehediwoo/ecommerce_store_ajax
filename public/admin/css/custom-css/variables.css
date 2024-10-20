@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --brand-color: #6c5ffc;
+  --green-color: #13bfa6;
+  --red-color: #e82646;
+  --light-color: #f0f0f5;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  --text-color: #282f53;
+  --text-color-2: #b4bdce;
+  --text-color-muted: #74829c;
+  --text-color-muted-2: #e9edf4;
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+}

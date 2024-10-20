@@ -1,0 +1,99 @@
+.sidebar .sidebar-header {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.logo {
+  height: 4rem;
+}
+.sidebar .sidebar-content {
+  padding: 1rem 2rem;
+}
+
+/* menu group */
+.menu-group {
+  margin-bottom: 3.5rem;
+}
+
+.menu-group .menu-group-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--brand-color);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.menu-group ul li {
+  font-size: 1.5rem;
+  align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 2.5rem;
+}
+
+.menu-group ul li:hover a.menu-name {
+  color: var(--brand-color);
+}
+
+.menu-group ul li a {
+  display: flex;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.menu-group ul li a .menu-icon {
+  color: var(--brand-color);
+}
+
+/* Dropdown Menu */
+.dropdown__menu {
+  position: relative;
+}
+
+.dropdown__menu .dropdown__chevron {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.menu-group .submenu {
+  padding-left: 1rem;
+}
+
+.menu-group .submenu ul {
+  margin-top: 2.5rem;
+}
+
+.menu-group .submenu li {
+  font-size: 1.3rem;
+  color: var(--text-color-2);
+  opacity: 0.7;
+}
+
+.menu-group .submenu li a .submenu-icon {
+  display: flex;
+  align-items: center;
+}
+
+.menu-group .submenu li a .submenu-icon {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  #sidebar.close .menu-group .menu-name {
+    display: none;
+  }
+  #sidebar.close .dropdown__chevron {
+    display: none;
+  }
+  #sidebar.close .menu-group ul li a {
+    justify-content: center;
+  }
+  #sidebar.close .dropdown__menu .submenu {
+    display: none;
+  }
+  #sidebar.close .logo-text {
+    display: none;
+  }
+}

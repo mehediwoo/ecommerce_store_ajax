@@ -1,0 +1,29 @@
+.search-box input {
+  border: 1px solid var(--text-color-muted-2);
+  padding: 1rem 1.5rem;
+  min-width: 35rem;
+  border-radius: 0.5rem;
+}
+
+.header .floating-text-icon .floating-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.header .user-profile-img img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#searchModal .modal-dialog {
+  max-width: 100%;
+  margin: 0 auto;
+}

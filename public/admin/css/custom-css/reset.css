@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  color: var(--text-color);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #a8a8a8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c9c9c9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+.btn:focus,
+input:focus,
+.form-control:focus {
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.hovarable {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.hovarable:hover {
+  opacity: 1;
+}
+
+a.nav-link {
+  color: var(--text-color);
+}
+
+a.nav-link:hover {
+  color: var(--brand-color);
+}
+
+label {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  font-size: 1.5rem;
+  border-color: var(--text-color-muted-2);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.form-control:focus {
+  border-color: var(--text-color-muted-2);
+  box-shadow: none;
+  outline: none;
+  background-color: #6c5ffc12;
+}
+
+.input-group-text {
+  background: transparent;
+  border: 1px solid var(--text-color-muted-2);
+  font-size: 1.5rem;
+  color: var(--text-color-muted);
+}
+
+.page-item.active .page-link {
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+}
+
+.page-link {
+  color: var(--brand-color);
+}
+
+.page-link:hover {
+  color: var(--brand-color);
+  background-color: #6c5ffc12;
+  border-color: #6c5ffc12;
+}
+
+.page-link:focus {
+  color: var(--brand-color);
+  background-color: #6c5ffc12;
+  box-shadow: none;
+}
+
+.breadcrumb-item.active {
+  color: var(--brand-color);
+}
+
+.alert-primary {
+  color: var(--brand-color);
+  background-color: #6c5ffc4a;
+  border-color: #6c5ffc45;
+}
